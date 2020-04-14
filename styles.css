@@ -3,6 +3,8 @@ body{
 }
 h1{
     background-color: white;
+    border-style: solid;
+    border-color: black;
     margin-left: 85px;
     margin-right: 85px;
     margin-top: 30%;
@@ -14,12 +16,23 @@ h1{
     margin: 35px;
     
 }
+.namebox{
+    margin-left: 35%;
+}
+.emailbox{
+    margin-left: 30%;
+}
 button{
     font: small-caption;
+    font-size: 47%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
-    border-radius: 40%;
-    background-color: cadetblue;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
     margin-left: 45%;
     margin-top: 5%;
+    padding: 20px;
+    transform: rotatez(-45deg) rotateY(45deg);
 }
